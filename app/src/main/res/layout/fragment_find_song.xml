@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <ScrollView
+
+            android:background="@color/base_color_red_66D23A2F"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+                <com.qiu.neteasemusic.View.MyEditText
+                    android:text=""
+                    android:id="@+id/et_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+        </ScrollView>
+        <ScrollView
+            android:background="@color/bg_color_44FFFFFF"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+                <com.qiu.neteasemusic.View.MyEditText
+                    android:text=""
+                    android:id="@+id/et_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+        </ScrollView>
+
+
+</LinearLayout>
